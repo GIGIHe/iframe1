@@ -41,6 +41,7 @@
     height: 8rem;
     margin: auto;
     overflow-y: auto;
+    border: 1px solid red;
 }
 .iframe iframe{
     width: 100%;
