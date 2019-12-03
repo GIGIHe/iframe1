@@ -1,0 +1,120 @@
+/*banner*/
+.ban {
+	width: 100%;
+	min-width: 1000px;
+	position: relative;
+}
+.ban_wrap {
+
+}
+.ban h1 {
+	text-indent: -9999px;
+	height: 185px;
+	margin-bottom: 52px;
+}
+/*zgm1*/
+.zgm1 {
+	width: 100%;
+	min-width: 1000px;
+	background: url(../images/kebg.jpg) no-repeat center top;
+}
+.zgm1_wrap {
+}
+.zgm1 h2 {
+	padding-bottom: 30px;
+	font:700 32px/35px "microsoft yahei";
+	text-align: center;
+	color:#fc417b;
+	background: url(../images/tit_bg.png) no-repeat center top;
+}
+.zgm1 h2 span{
+	font:400 24px/24px "microsoft yahei";
+	text-align: center;
+	color:#fc417b;
+}
+
+/*zgm2*/
+.zgm2 {
+	width: 100%;
+	min-width: 1000px;
+}
+.zgm2_wrap {
+	padding-top: 100px;
+}
+.zgm2 h2 {
+	font:700 32px/35px "microsoft yahei";
+	text-align: center;
+	color:#fc417b;
+	background: url(../images/tit_bg.png) no-repeat center top;
+	margin-bottom: 30px;
+}
+
+
+/*table 表格样式start*/
+.table {
+	width: 1000px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+}
+.table tr {
+	background: #fff;
+    transition: 0.3s;
+}
+.table tr td{
+	font:400 16px "microsoft yahei";
+	color:#000;
+	border-right:1px solid #000;
+	padding: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.table tr:hover {
+	background: rgba(252,65,123,0.1);
+}
+.table tr:hover td {
+	color:#fff;
+	border:1px solid #fff;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+}
+.table tr:hover td a {
+	border:1px solid #fff;
+	background: none;
+}
+.table tr td a {
+	display: block;
+	width: 130px;
+	height: 35px;
+	border:1px solid #fc417b;
+	font:400 18px/35px "microsoft yahei";
+	color:#fff;
+	text-align: center;
+	border-radius: 18px;
+	margin: 0 auto;
+	background: #fc417b;
+	transition: 0.3s
+}
+
+.table tr td:last-child{
+	border-right:none;
+}
+.table tr {
+    border:1px solid #000;
+    border-bottom: none;
+}
+.table tr:last-child{
+	border-bottom:1px solid #000;
+}
+.table tr th{
+	height: 50px;
+	background: #3a33ff;
+	font:400 20px/50px "microsoft yahei";
+	color:#fff;
+}
+/*table 表格样式end*/
+
+
+
+

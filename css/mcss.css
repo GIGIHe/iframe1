@@ -1,0 +1,48 @@
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
+.test{
+    font-size: .2rem;
+    color: #000;
+    text-align: left;
+}
+.iframe{
+    width: 7.2rem;
+    height: 9rem;
+    margin: auto;
+    overflow-y: auto;
+}
+.iframe iframe{
+    width: 100%;
+    height: 100%;
+}
